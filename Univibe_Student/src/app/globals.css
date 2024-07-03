@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --col1: #2d3371;
+  --col2: white;
+  --errorcol: #2d3371;
+}
+
+
+.theme_btn1 {
+  background-color: white;
+  color: white;
+  border: 1px solid #2d3371;
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+
+.linkstylenone {
+  text-decoration: none;
+  color: #2d3371;
+  margin-right: 20px;
+}

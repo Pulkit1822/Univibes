@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "SuperBold";
+    src: url("Fonts/Akira/SuperBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Outline";
+    src: url("Fonts/Akira/Outline.otf") format("truetype");
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+    font-family: "SuperBold", sans-serif;
+    color: #2d3371;
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+    font-family: "SuperBold", sans-serif;
+    justify-content: center;
+    border: 1px solid #ff914d;
+}
+
+
+
+
+.catalogues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: translateX(-100%);
+    filter: blur(5px); 
+}
+
+.card .description {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Outline", sans-serif;
+    text-size-adjust: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    animation: color-transition 5s infinite;
+}
+
+@keyframes color-transition {
+    0% { background-color: beige; }
+    16.67% { background-color: #f5f5dc; }
+    33.33% { background-color: #f5deb3; }
+    50% { background-color: #deb887; }
+    66.67% { background-color: #d2b48c; }
+    83.33% { background-color: #cd853f; }
+    100% { background-color: beige; }
+}
+
+.card:hover .description {
+    right: 0;
+    font-size: 100px;
+    
+}
+
+.card a {
+    color: inherit;
+    text-decoration: none;
+}
+

@@ -1,0 +1,91 @@
+.formpage {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    background-size: cover ; 
+    background-position: center; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+    position: relative;
+    text-emphasis-color: #2d3371;
+  }
+  
+  h1 {
+    position: relative;
+    z-index: 1;
+    color: #2d3371;
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #2d3371;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2d3371;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #45a049;
+  }
+  
+  .redirect-text {
+    margin-top: 8px;
+    color: #555;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
