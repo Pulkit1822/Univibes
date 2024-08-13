@@ -8,7 +8,6 @@ function checkAuthToken(req, res, next) {
         return res.status(401).json({ message: 'Authentication failed: No authToken or refreshToken provided', ok: false });
     }
 
-
     jwt.verify(authToken, process.env.JWT_SECRET_KEY, (err, decoded) => {
         if (err) {
             jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (refreshErr, refreshDecoded) => {
@@ -37,5 +36,4 @@ function checkAuthToken(req, res, next) {
         }
     })
 }
-
 module.exports = checkAuthToken;

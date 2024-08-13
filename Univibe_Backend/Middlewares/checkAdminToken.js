@@ -19,5 +19,4 @@ function checkAdminToken(req, res, next) {
         }
     });
 }
-
 module.exports = checkAdminToken;

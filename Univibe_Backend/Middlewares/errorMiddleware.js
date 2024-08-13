@@ -11,5 +11,4 @@ function errorHandler(statusCode, err, req, res, next) {
         message: err.message,
     });
 }
-
 module.exports = errorHandler;
