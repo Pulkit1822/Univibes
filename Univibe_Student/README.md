@@ -1,62 +1,86 @@
-# Harmony Events (Client Panel)
+# Univibes Student
 
-This is the front-end implementation for a concert booking web application built as part of an internship program.
+## Project Overview
 
-## Overview
+Univibes is a comprehensive event management platform designed to streamline the process of organizing and managing events within a university campus. This student panel is a crucial part of the Univibes platform, providing robust functionalities for students to discover events, book tickets, and manage their bookings.
 
-Focused on developing an intuitive UI and smooth booking workflow for users to discover events and complete ticket purchases.
+### Purpose and Features
 
-## Goals
+- **Event Discovery**: Browse and discover upcoming events by category.
+- **Event Details**: View detailed information about events including venue, seating map, and more.
+- **Seat Selection**: Select and deselect seats on an interactive map.
+- **Booking System**: Seamless booking flow to complete ticket purchases.
+- **Profile Management**: Manage user profile and view booking history.
 
-- Create easy browsing to find concerts/events
-- Build immersive event details page
-- Enable seamless seat selection with maps  
-- Design straightforward booking flow
+## Why Univibes is Better
 
-Backend APIs and database were provided.
+Univibes stands out from other event management platforms due to its focus on university campuses, providing a tailored solution that addresses the unique needs of campus event management. The platform offers a seamless integration of user and admin functionalities, ensuring a smooth experience for both event organizers and attendees. Additionally, Univibes leverages modern technologies to provide a scalable and efficient solution.
 
-## Features
+## Technologies Used
 
-- **Homepage** - Upcoming events by category
-- **Listings** - All events with filters
-- **Details** - Venue, seating map   
-- **Seat Selection** - Select/deselect on map
-- **Checkout** - Collect billing info
-- **Confirmation** - Booking details
+- **Next.js**: For building a scalable and high-performance frontend.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: For type safety and better code maintainability.
+- **Axios**: For making HTTP requests.
+- **React Toastify**: For providing notifications.
+- **Swiper**: For creating carousels and sliders.
 
-## Tech
+These technologies ensure that Univibes is not only robust and scalable but also easy to maintain and extend.
 
-- Next.js - React Framework
-- React - Frontend Library
-- TypeScript
+## How to Use Univibes Student
 
-## Scripts
+### Prerequisites
 
-- `dev` - Run `next dev` for development
-- `build` - Run `next build` to build the project
-- `start` - Run `next start` to start the production server  
-- `lint` - Run `next lint` to lint the project
+- Node.js and npm installed on your system.
 
-## Dependencies 
+### Installation
 
-- @types/node - 20.6.3
-- @types/react - 18.2.22
-- @types/react-dom - 18.2.7 
-- cloudinary - ^1.41.0
-- next - 13.5.2
-- react - 18.2.0
-- react-dom - 18.2.0 
-- react-toastify - ^9.1.3
-- typescript - 5.2.2
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Pulkit1822/Univibes.git
+   cd Univibes/Univibe_Student
+   ```
 
-## Usage
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- Install dependencies with `npm install`
-- Develop with `npm run dev`  
-- Build with `npm run build`
-- Start production server with `npm start`  
-- Lint with `npm run lint`
+3. Create a `.env` file in the root directory and add the following environment variables:
+   ```env
+   NEXT_PUBLIC_BACKEND_API=<your-backend-api-url>
+   ```
 
-## Conclusion
+4. Start the server:
+   ```bash
+   npm start
+   ```
 
-Gained practical experience with React, Next.js for building performant and scalable frontends. Integrating with backend exposed overall architecture.# Univibes-facultySide
+The server will start on port 3000 by default.
+
+## Contributing
+
+We welcome contributions to improve Univibes. Here are some ways you can contribute:
+
+- **Bug Reports & Feature Requests**: If you encounter any bugs or have feature requests, please create an issue on GitHub.
+- **Pull Requests**: If you have a fix or a new feature, please fork the repository, create a new branch, and submit a pull request.
+- **Documentation**: Improve the documentation to help others understand and use Univibes.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request on GitHub.
+
+Thank you for contributing to Univibes!
