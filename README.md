@@ -1,5 +1,8 @@
-
-# Univibes
+<p align="center">
+  <a href="https://github.com/Pulkit1822/Univibes">
+    <img src="https://github.com/Pulkit1822/Univibes/blob/main/Univibe_Faculty/src/app/logo.png" height="128">
+  </a>
+</p>
 
 ## Project Overview
 
